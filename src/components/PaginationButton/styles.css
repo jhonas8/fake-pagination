@@ -1,0 +1,20 @@
+.paginationButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationButton {
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+}
+
+.paginationButton:hover {
+    background-color: rgb(207, 205, 205);
+}

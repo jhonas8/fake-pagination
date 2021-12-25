@@ -1,0 +1,29 @@
+.card img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: .5rem .5rem .5rem .5rem;
+    box-shadow: 2px 4px 10px rgb(0,0, 0, .2);
+    transition: all .18s ease-out;
+    width: 100%;
+    height: 100%;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    background-color: rgb(226, 223, 223);
+    width: calc(100% - 15px);
+    height: calc(100% - 15px);
+    transition: all .18s ease-in;
+}
+
+
